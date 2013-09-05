@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:a2ba41A2-b704-4a9d-a9ed-aecacc1d43ed-->
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="Demo3ProvidedHosted" ProductID="{4df71815-4a64-4602-8b0f-e287280dd145}" Version="1.0.0.0" SharePointMinVersion="15.0.0.0">
+  <Properties>
+    <Title>Demo3ProvidedHosted</Title>
+    <StartPage>https://mbtechedaus.azurewebsites.net/pages/default.aspx/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="32a04370-7eb8-46d2-be13-a9ed28f8bcad" />
+  </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="true">
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Write" />
+  </AppPermissionRequests>
+</App>

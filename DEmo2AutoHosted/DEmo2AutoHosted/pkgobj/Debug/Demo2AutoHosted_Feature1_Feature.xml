@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7838ad20-405e-4d1c-95dc-75a45cb71b1b" Scope="Web" Title="DEmo2AutoHosted Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="List1Instance\Elements.xml" />
+    <ElementManifest Location="List1\Elements.xml" />
+    <ElementFile Location="List1\Schema.xml" />
+    <ElementManifest Location="RemoteEventReceiver1\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="List1Instance\Elements.xml" />
+        <ElementManifest Location="List1\Elements.xml" />
+        <ElementManifest Location="RemoteEventReceiver1\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
